@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Awakened Bear</name>
+		<description>It's just a bear that can think</description>
+		      <update version="0.0.1">
+            	<file name="race-awakened-bear.xml" url:""/>
+        	</update>
+	</info>
+
+  <element name="Awakened Bear" type="Race" source="Homebrew" id="ID_HOMEBREW_RACE_AWAKENED_BEAR">
+    <description>
+      <p>Awakened Bears are not too common in the land. They come to exist in many different ways but not very often. Gods could call upon such beasts in times of need, or play cruel 
+
+tricks with the lives of their underlings. These bears could be assistants to magic-users and be awakened through a spell or experimentation gone wrong. Whatever the case, this is an 
+
+irrevocable change for the creature, turning it into a being that thinks and feels like its creator. Due to their higher intelligence, awakened bears can learn a language although it is 
+
+unlikely it will speak it.</p>
+      <p>Occasionally they enter humanoid society, usually via capture. Many a bear has become a sensation for performing parlour tricks whilst being ogled at within cages at circuses and 
+
+by curious children. Some bears do get treated better in societies where they aren't seen as simple primitives and are allowed to express themselves better, thus allowing them to become 
+
+adventurers and such. They often are up for hire as fishermen or hunters due to their ability to use their natural instincts and navigate terrains like forests and even mountains.</p>
+      <h4>PHYSICAL DESCRIPTION</h4>
+      <p>Awakened bears are the same physically as a normal bears. Adult brown bears (often called grizzly bears)can be between 6 to 7 feet from nose to tail standing upright, and are 
+
+about 4.5 feet high when on all fours. Males are larger than females. Brown Bears have a rounded face with small eyes, rounded ears, and a long snout. They also have large, non-retractable 
+
+claws, a large body, a short tail, and shaggy hair. Their fur colour is usually a shade of brown. It can go all the way from dark brown almost black to blonde.</p>
+      <h4>AWAKENED BEAR NAMES</h4>
+      <p>Bears Bears tend to not name themselves or each other but can on occasion, though will accept being named by friendly humanoids. They tend to be named either for war or as pets, 
+
+which are usually ignorant of gender.</p>
+      <h4>AWAKENED BEAR TRAITS</h4>
+      <p>It's just a bear that can think.</p>
+      <p>
+        <span class="feature">Ability Score Increase.</span>Your Strength score increases by 2 and your Constitution score increases by 1.<br/>
+        <span class="feature">Age.</span>The average life span of an awakened bear is about 60 to 80 years. Bears reach maturity at age 2.<br/>
+        <span class="feature">Alignment.</span>Awakened bears tend to be uninterested in the politics of the other races. Therefore they are usually of neutral alignment. They are very 
+
+loyal to their allies so they will have a big impact on the bears alignment.<br/>
+        <span class="feature">Size.</span>A brown bear is 4.5ft tall on all fours and 6-7ft tall on its hind legs. Your size is medium.<br/>
+        <span class="feature">Speed.</span>Your base walking speed is 40ft or 20ft when walking your hind legs. You have a climbing speed of 30ft.<br/>
+        <span class="feature">Darkvision.</span>Because bears typically live in cave dens, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of 
+
+you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.<br/>
+        <span class="feature">Bear Body.</span>As a bear, your creature type is beast. Additionally, you cannot don traditional armor and must use barding. You have disadvantage on attack 
+
+rolls using weapons not designed for bears.<br/>
+        <span class="feature">Natural Weapons.</span>You have proficiency with your claws and teeth. Your claws deal 2d6+Str slashing damage and your teeth deal 1d8+Str piercing damage. 
+
+Due to your clumsy paws, you can’t use any artisan's tools, musical instruments, or weapons not designed for bears.<br/>
+        <span class="feature">Bear Hug.</span>You wrap your huge arms around your foe, lifting them up and squeezing them against your chest, crushing bone and leaving them weakened. After 
+
+attacking with your claws you may use your bonus action to attempt to ensnare your opponent. They must make a Strength saving throw against a DC of 8 + your Strength + your proficiency 
+
+bonus. If they lose, they are restrained. While restrained the target takes 1d6 crushing damage at the start of each of it's turns. A creature restrained by the hug can use its action to 
+
+make a strength check against the same DC. On success, the target is freed. You cannot make any other actions while the hug is in effect.<br/>
+        <span class="feature">Keen Smell.</span>You have advantage on Wisdom (Perception) checks that rely on smell.<br/>
+        <span class="feature">Powerful Build.</span>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.<br/>
+        <span class="feature">Menacing.</span>You gain proficiency in the intimidation skill<br/>
+        <span class="feature">Languages.</span>You can speak, read, and write Common, you can speak with bears, and can communicate basic ideas with animals as if casting speak with 
+
+animals<br/>
+      </p>
+    </description>
+    <sheet display="false" />
+    <setters>
+      <set name="height" modifier="3d12">6'0"</set>
+      <set name="weight" modifier="(Height Modifier x 6) lbs">300 lb.</set>
+      <set name="sourceUrl">https://www.dandwiki.com/wiki/Awakened_Bear_(5e_Race)</set>
+    </setters>
+    <rules>      
+      <stat name="strength" value="2"/>
+      <stat name="constitution" value="1"/>
+      <stat name="innate speed" value="40" bonus="base"/>
+      <stat name="innate speed:climb" value="30" bonus="base" />
+      <grant type="Size" id="ID_SIZE_MEDIUM" />
+      <grant type="Vision" id="ID_VISION_DARKVISION" />
+      <grant type="Language" id="ID_LANGUAGE_COMMON" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_NATURAL_WEAPONS" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_BEAR_HUG" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_KEEN_SMELL" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_POWERFUL_BUILD" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_MENACING" />
+    </rules>
+  </element>
+
+  <element name="Natural Weapons" type="Racial Trait" source="D&amp;D Wiki" id="ID_RACIAL_TRAIT_NATURAL_WEAPONS">
+    <description>
+      <p>You have proficiency with your claws and teeth. Your claws deal 2d6+Str slashing damage and your teeth deal 1d8+Str piercing damage. Due to your clumsy paws, you can’t use any 
+
+artisan's tools, musical instruments, or weapons not designed for bears.</p>
+    </description>
+    <sheet>
+      <description>You have proficiency with your claws and teeth. Your claws deal 2d6+Str slashing damage and your teeth deal 1d8+Str piercing damage. Due to your clumsy paws, you can’t 
+
+use any artisan's tools, musical instruments, or weapons not designed for bears.</description>
+    </sheet>
+  </element>
+  <element name="Bear Hug" type="Racial Trait" source="D&amp;D Wiki" id="ID_RACIAL_TRAIT_BEAR_HUG">
+    <description>
+      <p>You wrap your huge arms around your foe, lifting them up and squeezing them against your chest, crushing bone and leaving them weakened. After attacking with your claws you may 
+
+use your bonus action to attempt to ensnare your opponent. They must make a Strength saving throw against a DC of 8 + your Strength + your proficiency bonus. If they lose, they are 
+
+restrained. While restrained the target takes 1d6 crushing damage at the start of each of it's turns. A creature restrained by the hug can use its action to make a strength check against 
+
+the same DC. On success, the target is freed. You cannot mak any other actions while the hug is in effect.<br/>
+      </p>
+    </description>
+    <sheet>
+      <description>YYou wrap your huge arms around your foe, lifting them up and squeezing them against your chest, crushing bone and leaving them weakened. After attacking with your claws 
+
+you may use your bonus action to attempt to ensnare your opponent. They must make a Strength saving throw against a DC of 8 + your Strength + your proficiency bonus. If they lose, they are 
+
+restrained. While restrained the target takes 1d6 crushing damage at the start of each of it's turns. A creature restrained by the hug can use its action to make a strength check against 
+
+the same DC. On success, the target is freed. You cannot make any other actions while the hug is in effect.</description>
+    </sheet>
+  </element>
+  <element name="Keen Smell" type="Racial Trait" source="D&amp;D Wiki" id="ID_RACIAL_TRAIT_KEEN_SMELL">
+    <description>
+      <p>You have advantage on Wisdom (Perception) checks that rely on smell.</p>
+    </description>
+    <sheet>
+      <description>You have advantage on Wisdom (Perception) checks that rely on smell.</description>
+    </sheet>
+  </element>
+  <element name="Powerful Build" type="Racial Trait" source="D&amp;D Wiki" id="ID_RACIAL_TRAIT_POWERFUL_BUILD">
+    <description>
+      <p>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
+    </description>
+    <sheet>
+      <description>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</description>
+    </sheet>
+  </element>
+  <element name="Menacing" type="Racial Trait" source="D&amp;D Wiki" id="ID_RACIAL_TRAIT_MENACING">
+    <description>
+      <p>You gain proficiency in the intimidation skill</p>
+    </description>
+    <sheet>
+      <description>You gain proficiency in the intimidation skill</description>
+    </sheet>
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION"/>
+    </rules>
+  </element>
+</elements>
