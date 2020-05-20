@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.2">
+			<file name="sources.xml" url="https://raw.githubusercontent.com/Hazelninja24/aurora-custom-works/elements/master/custom/sources.xml?token=8b73e270be4c4ce0c0a8989f83bf67cac5950c17" />
+		</update>
+	</info>
+	<element name="JL Homebrew" type="Source" source="Core" id="ID_SOURCE_JL_HOMEBREW">
+		<description>
+			<![CDATA[<p>This content pack features brand new or modified works from Jake Laird, your benevolent and kind DM ;)</p>]]>
+		</description>
+		<setters>
+			<set name="abbreviation">JLHB</set>
+			<set name="author" abbreviation="JL">Jake Laird</set>
+		</setters>
+	</element>
+</elements>
