@@ -11,7 +11,7 @@
 		</description>
 		<setters>
 			<set name="abbreviation">JLHB</set>
-			<set name="author" abbreviation="JL">Jake Laird</set>
+			<set name="author" abbreviation="JL">Jake T Laird</set>
 		</setters>
 	</element>
 </elements>
