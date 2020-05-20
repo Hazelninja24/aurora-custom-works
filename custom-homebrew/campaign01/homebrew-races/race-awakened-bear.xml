@@ -4,7 +4,7 @@
 		<name>Awakened Bear</name>
 		<description>It's just a bear that can think</description>
 		<update version="0.0.1">
-            	<file name="race-awakened-bear.xml" url="https://raw.githubusercontent.com/Hazelninja24/aurora-custom-works/master/custom-homebrew/campaign01/homebrew%20races/race-awakened-bear.xml"/>
+            	<file name="race-awakened-bear.xml" url="https://raw.githubusercontent.com/Hazelninja24/aurora-custom-works/master/custom-homebrew/campaign01/homebrew-races/race-awakened-bear.xml"/>
         	</update>
 	</info>
 
