@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Homebrew Races</name>
+		<description>List of races either created or adapted by Jake Laird</description>
+		<update version="0.0.1">
+			<file name="homebrew-races.index" url="https://raw.githubusercontent.com/Hazelninja24/aurora-custom-works/elements/master/jl-homebrew/campaign01/homebrew-races.index?token=8b73e270be4c4ce0c0a8989f83bf67cac5950c17" />
+		</update>
+	</info>
+	<files>
+		<file name="race-awakened-bear.xml" url="https://raw.githubusercontent.com/Hazelninja24/aurora-custom-works/elements/master/jl-homebrew/campaign01/homebrew-races/race-awakened-bear.xml?token=8b73e270be4c4ce0c0a8989f83bf67cac5950c17" />
+</files>
+</index>
